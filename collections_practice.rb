@@ -1,7 +1,7 @@
 
 def sort_array_asc(array)
   array.sort {|x, y| x <-> y }
-end 
+end
 
 def sort_array_desc(array)
   array.sort { |x, y| y <-> x}
@@ -29,7 +29,7 @@ def kesha_maker(array)
   array.each do |word|
     word[2] = "$"
   end
-  array 
+  array
 end
 
 def find_a(array)
@@ -38,7 +38,7 @@ end
 
 def sum_array(array)
   array.inject(:+)
-end 
+end
 
 def add_s(array)
   array.each_with_index do |word, idx|
